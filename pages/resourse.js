@@ -1,9 +1,9 @@
-import Resourse from "../Components/Free Resourse/resourse";
+import Resourse from "../Components/FreeResourse/resourse";
 
 export default function () {
-    return (
-        <>
-          <Resourse />  
-        </>
-    )
+  return (
+    <>
+      <Resourse />
+    </>
+  );
 }
