@@ -11,10 +11,6 @@ export default function AboutPage() {
         <>
             <Breadcrumbs />
             <Counter />
-            <Aboutus />
-            <Team />
-            <Testimonial />
-            <Blog />
         </>
     )
 }

@@ -5,7 +5,7 @@ const SingleAside = () => {
         <>
          <div className="video-column col-lg-4">
           <div className="inner-column">
-            <div className="intro-video media-icon orange-color2">
+            <div className="intro-video media-icon">
               <img className="video-img" src="assets/images/about/about-video-bg2.png" alt="Video Image" />
               <a className="popup-videos" href="https://www.youtube.com/watch?v=atMUy_bPoQI">
                 <i className="fa fa-play" />
@@ -42,8 +42,8 @@ const SingleAside = () => {
               </ul>
             </div>
             <div className="btn-part">
-              <a href="#" className="btn readon2 orange">$35</a>
-              <a href="#" className="btn readon2 orange-transparent">Buy Now</a>
+              <a href="#" className="btn readon2">$35</a>
+              <a href="#" className="btn readon2 transparent">Buy Now</a>
             </div>
           </div>
         </div>

@@ -1,7 +1,5 @@
-import Breadcrumbs from "../Components/About/Breadcrumbs";
 import About from "../Components/Homepage/About";
 import Blog from "../Components/Homepage/Blog";
-import Categories from "../Components/Homepage/Categories";
 import Courses from "../Components/Homepage/Courses";
 import Cta from "../Components/Homepage/Cta";
 import Faq from "../Components/Homepage/Faq";
@@ -14,14 +12,12 @@ export default function Home() {
     <>
     <Hero />
     <About />
-    <Categories />
     <Courses />
     <Cta />
     <Faq />
     <Teachers />
     <Testimonial />
     <Blog />
-    <Breadcrumbs />
     </>
   );
 }

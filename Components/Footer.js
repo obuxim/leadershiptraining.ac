@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Link from 'next/link';
 
 const Footer = () => {
     return (
@@ -28,24 +29,23 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-3 col-md-12 col-sm-12 footer-widget md-mb-50">
-            <h4 className="widget-title">Explore</h4>
+            <h4 className="widget-title">About</h4>
             <ul className="site-map">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Success Stories</a></li>
-              <li><a href="#">All Courses</a></li>
-              <li><a href="#">Blog</a></li>
+              <li><Link href="/allcourse"><a>All Courses</a></Link></li>
+              <li><Link href="/about"><a>About Us</a></Link></li>
+              <li><Link href="/contact"><a>Contact Us</a></Link></li>
+              <li><Link href="/"><a>Free Quizzes</a></Link></li>
+              <li><Link href="/resourse"><a>Free Resources</a></Link></li>
             </ul>
           </div>
           <div className="col-lg-3 col-md-12 col-sm-12 footer-widget md-mb-50">
-            <h4 className="widget-title">Resourse</h4>
+            <h4 className="widget-title">Useful Links</h4>
             <ul className="site-map">
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Terms of use</a></li>
-              <li><a href="#">Contact Us</a></li>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">Our Partners</a></li>
-              <li><a href="#">Redeem Voucher</a></li>
+              <li><Link href="/blog"><a>Blogs</a></Link></li>
+              <li><Link href="/privacy"><a>Privacy Policy</a></Link></li>
+              <li><Link href="/terms"><a>Terms & Condition</a></Link></li>
+              <li><Link href="/redeem"><a>Redeem Voucher </a></Link></li>
+              <li><Link href="/certificate"><a>Certificate Validate </a></Link></li>
             </ul>
           </div>
           <div className="col-lg-3 col-md-12 col-sm-12 footer-widget">
@@ -84,7 +84,7 @@ const Footer = () => {
           </div>
           <div className="col-lg-4 md-mb-20">
             <div className="copyright text-center md-text-left">
-              <p>© 2020 All Rights Reserved. Developed By <a href="http://rstheme.com/">RSTheme</a></p>
+              <p>© 2020 All Rights Reserved. Developed By Leadership</p>
             </div>
           </div>
           <div className="col-lg-4 text-right md-text-left">

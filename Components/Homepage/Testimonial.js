@@ -1,6 +1,15 @@
-import React from 'react'
+import React from 'react';
+import Slider from 'react-slick';
+
 
 const Testimonial = () => {
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 2,
+        slidesToScroll: 1
+      };
     return (
         <>
         <div className="rs-testimonial home-style1 pt-100 pb-100 md-pt-70 md-pb-70">
@@ -9,7 +18,7 @@ const Testimonial = () => {
             <div className="sub-title primary">Testimonial</div>
             <h2 className="title mb-0">Testimonial</h2>
             </div>
-            <div className="rs-carousel owl-carousel" data-loop="true" data-items={2} data-margin={30} data-autoplay="true" data-hoverpause="true" data-autoplay-timeout={5000} data-smart-speed={800} data-dots="true" data-nav="false" data-nav-speed="false" data-md-device={2} data-md-device-nav="false" data-md-device-dots="true" data-center-mode="false" data-ipad-device2={1} data-ipad-device-nav2="false" data-ipad-device-dots2="true" data-ipad-device={2} data-ipad-device-nav="false" data-ipad-device-dots="true" data-mobile-device={1} data-mobile-device-nav="false" data-mobile-device-dots="false">
+            <Slider {...settings} className="rs-carousel owl-carousel" data-loop="true" data-items={2} data-margin={30} data-autoplay="true" data-hoverpause="true" data-autoplay-timeout={5000} data-smart-speed={800} data-dots="true" data-nav="false" data-nav-speed="false" data-md-device={2} data-md-device-nav="false" data-md-device-dots="true" data-center-mode="false" data-ipad-device2={1} data-ipad-device-nav2="false" data-ipad-device-dots2="true" data-ipad-device={2} data-ipad-device-nav="false" data-ipad-device-dots="true" data-mobile-device={1} data-mobile-device-nav="false" data-mobile-device-dots="false">
             <div className="testi-item">
                 <div className="author-desc">                                
                 <div className="desc"><img className="quote" src="assets/images/testimonial/style5/quote2.png" alt />Professional, responsive, and able to keep up with ever-changing demand and tight deadlines: That’s how I would describe Jeramy and his team at The Lorem Ipsum Company. When it comes to content marketing, you’ll definitely get the 5-star treatment from the Lorem Ipsum Company.</div>
@@ -83,7 +92,7 @@ const Testimonial = () => {
                 <span className="designation">Math Teacher</span>
                 </div>
             </div>
-            </div>
+            </Slider>
         </div>
         </div>
 

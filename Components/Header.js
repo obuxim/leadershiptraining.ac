@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Link from 'next/link';
 
 
 const Header = () => {
@@ -57,19 +58,29 @@ const Header = () => {
                 </div>
                 <nav className="rs-menu">
                   <ul className="nav-menu">
-                    <li className="rs-mega-menu mega-rs menu-item-has-children current-menu-item"> <a href="index.html">Home</a>
+                    <li className="rs-mega-menu mega-rs menu-item-has-children current-menu-item">
+                      <Link href="/"><a>Home</a>
+                    </Link>
                     </li>
                     <li className="menu-item-has-children">
-                      <a href="#">All Courses</a>
+                    <Link href="/allcourse">
+                      <a>All Courses</a>
+                      </Link>
                     </li>
                     <li className="menu-item-has-children">
-                      <a href="#">Special Deal</a>
+                    <Link href="/">
+                      <a>Special Deal</a>
+                      </Link>
                     </li>
                     <li className="menu-item-has-children">
-                      <a href="#">Blog</a>
+                    <Link href="/blog">
+                      <a>Blog</a>
+                      </Link>
                     </li>
                     <li className="menu-item-has-children">
-                      <a href="#">Free Resources</a>
+                    <Link href="/resourse">
+                      <a>Free Resources</a>
+                      </Link>
                     </li>
                   </ul> 
                 </nav>                                         

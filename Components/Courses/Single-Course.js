@@ -209,7 +209,7 @@ const SingleCourse = () => {
               <div className="tab-pane fade" id="prod-instructor" role="tabpanel" aria-labelledby="prod-instructor-tab">
                 <div className="content pt-30 pb-30 pl-30 pr-30 white-bg">
                   <h3 className="instructor-title">Instructors</h3>
-                  <div className="row rs-team style1 orange-color transparent-bg clearfix">
+                  <div className="row rs-team style1 transparent-bg clearfix">
                     <div className="col-lg-6 col-md-6 col-sm-12 sm-mb-30">
                       <div className="team-item">
                         <img src="assets/images/team/1.jpg" alt />
